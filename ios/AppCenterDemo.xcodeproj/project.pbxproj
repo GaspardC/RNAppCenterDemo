@@ -13,6 +13,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9DCCAB254B241B0E4F1C1AC2 /* libPods-AppCenterDemo-AppCenterDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 447CFC977F9252403AB65A10 /* libPods-AppCenterDemo-AppCenterDemoTests.a */; };
+		C9F0DB4C26147097005968EC /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9F0DB4B26147097005968EC /* AppCenter-Config.plist */; };
 		E2E04E4809BAD76D8C156B0A /* libPods-AppCenterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B87B65FE9FF4BACD9072A1 /* libPods-AppCenterDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		447CFC977F9252403AB65A10 /* libPods-AppCenterDemo-AppCenterDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppCenterDemo-AppCenterDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6418DCA64CDA813C775E2AE3 /* Pods-AppCenterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCenterDemo.release.xcconfig"; path = "Target Support Files/Pods-AppCenterDemo/Pods-AppCenterDemo.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AppCenterDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9F0DB4B26147097005968EC /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "AppCenterDemo/AppCenter-Config.plist"; sourceTree = "<group>"; };
 		D512418EA3F54AD13E24364A /* Pods-AppCenterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCenterDemo.debug.xcconfig"; path = "Target Support Files/Pods-AppCenterDemo/Pods-AppCenterDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F633225276B3A38D173F572C /* Pods-AppCenterDemo-AppCenterDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppCenterDemo-AppCenterDemoTests.release.xcconfig"; path = "Target Support Files/Pods-AppCenterDemo-AppCenterDemoTests/Pods-AppCenterDemo-AppCenterDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				C9F0DB4B26147097005968EC /* AppCenter-Config.plist */,
 			);
 			name = AppCenterDemo;
 			sourceTree = "<group>";
@@ -114,7 +117,6 @@
 				F82B5B4E8D998C4AE03B4DF3 /* Pods-AppCenterDemo-AppCenterDemoTests.debug.xcconfig */,
 				F633225276B3A38D173F572C /* Pods-AppCenterDemo-AppCenterDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,6 +247,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C9F0DB4C26147097005968EC /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G99K885NK6;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AppCenterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +515,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G99K885NK6;
 				INFOPLIST_FILE = AppCenterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
